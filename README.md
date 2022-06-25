@@ -17,7 +17,7 @@ It is created with [Create-React-App](https://github.com/facebook/create-react-a
 
 ## Live version
 
-For the live version of this project visit the following [Netlify](https://global-covid-data-tracker.netlify.app/) link.
+For the live version of this project visit the following [Netlify](https://covid-19-updates-hub.netlify.app/) link.
 
 ## Get started
 
