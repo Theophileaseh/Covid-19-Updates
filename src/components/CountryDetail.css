@@ -1,0 +1,26 @@
+.product-container {
+  background: #000;
+}
+
+.product-detail {
+  background: #232323;
+  margin: 60px;
+  padding: 150px;
+  color: #fff;
+}
+
+.product-img {
+  width: 300px;
+}
+
+.product-detail span {
+  color: #019ca6;
+  font-weight: 700;
+}
+
+.prod-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}

@@ -1,0 +1,16 @@
+.footer {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: #232323;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.footer-info {
+  
+}

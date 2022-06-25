@@ -1,0 +1,27 @@
+.single-country {
+  width: 20%;
+  height: 230px;
+  background: #232323;
+  padding: 20px;
+  border-radius: 3px;
+
+}
+
+.single-country:hover {
+  box-shadow: rgb(39 158 171 / 24%) 0px 3px 8px;
+}
+
+.single-country .link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.single-country span {
+  color: #019ca6;
+  font-weight: 700;
+}
+
+.country-img {
+  width: 190px;
+  margin: 0 auto;
+}
