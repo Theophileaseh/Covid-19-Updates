@@ -5,7 +5,7 @@ import countryReducer from './country';
 
 export default configureStore({
   reducer: {
-    countries: countryReducer
+    countries: countryReducer,
   },
   middleware: [logger, thunk],
 });
