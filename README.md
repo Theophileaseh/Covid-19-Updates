@@ -1,73 +1,68 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Covid-19 Updates App
 
-# Project Name
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 
-> Description the project.
+> This webapp provides Covid-19 statistics and updates using the data it gets from an [API data source](https://api.covid19api.com/) to provide comprehensive information about the novel coronavirus, 
+> 
+It is created with [Create-React-App](https://github.com/facebook/create-react-app)
 
+---
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Screenshot
+| Homepage |   Continent Page |
+| ---------- | ----------- |
+ | ![homepage](img/i.png) | ![detailspage](img/1.png) |
+</p>
 
 
-To get a local copy up and running follow these simple example steps.
+## Live version
 
-### Prerequisites
+For the live version of this project visit the following [Netlify](https://covid-19-updates-hub.netlify.app/) link.
 
-### Setup
+## Get started
 
-### Install
+```bash
+   git clone https://github.com/Theophileaseh/Covid-19-Updates.git
+   cd into the folder by typing: cd Covid-19-Updates
+```
 
-### Usage
+ ## Technology
 
-### Run tests
-
-### Deployment
-
-
+- React-Create-App
+- React-DOM
+- Redux
+- npm
+- Javascript ES6
+- Nodejs
+- HTML && CSS
+- React
 
 ## Authors
 
-👤 **Author1**
+👤 **Nwachan Theophile**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub: [@Theophileash](https://github.com/Theophileaseh)
+- Twitter: [@NwachanT](https://twitter.com/NwachanT)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nwachan-theophile)
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
+- External API from https://api.covid19api.com/
+- Original design idea (Ballhead App (Free PSDs)) by Nelson Sakwa [Website](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
-## 📝 License
+## 🤝 Contributing
+All contributions, issues and feature requests are welcome!
 
-This project is [MIT](./MIT.md) licensed.
+1. Fork it (https://github.com/Theophileaseh/Covid-19-Updates.git)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
+
+## Show your support:
+
+Give a :star: if you liked the app
+
+# License
+This project is [MIT](LICENSE.md) licensed.
