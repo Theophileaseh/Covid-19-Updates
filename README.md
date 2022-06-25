@@ -11,7 +11,7 @@ It is created with [Create-React-App](https://github.com/facebook/create-react-a
 ## Screenshot
 | Homepage |   Continent Page |
 | ---------- | ----------- |
- | ![homepage](/assets/i.png) | ![detailspage](/assets/1.png) |
+ | ![homepage](img/i.png) | ![detailspage](img/1.png) |
 </p>
 
 
