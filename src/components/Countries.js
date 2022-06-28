@@ -29,7 +29,7 @@ const Countries = () => {
       <div className="countries-home">
         <h2 className="welcome">
           Welcome To
-          <span>Covid-19 Updates</span>
+          <span> Covid-19 Updates</span>
         </h2>
         <p>Get real time data on covid-19 statistics around the world</p>
       </div>

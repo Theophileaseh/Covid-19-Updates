@@ -24,14 +24,14 @@ const CountryDetail = () => {
   const singlecountry = filter[0] && filter[0];
 
   return (
-    <div className="product-container">
+    <div className="country-container">
       <Header2 />
       {Object.keys(countries).length === 0 ? (
         <h2>Loading...</h2>
       ) : (
-        <div className="product-detail">
+        <div className="country-detail">
           <div className="prod-img">
-            <img src={`https://countryflagsapi.com/svg/${singlecountry && singlecountry.CountryCode}`} className="product-img" alt={filter.Country} />
+            <img src={`https://countryflagsapi.com/svg/${singlecountry && singlecountry.CountryCode}`} className="country-detail-img" alt={filter.Country} />
           </div>
           <div className="country-infos">
             <h2 className="country-name">
@@ -44,30 +44,30 @@ const CountryDetail = () => {
             </p>
           </div>
           <div className="prod-desc">
-            <div className="product-detail-section">
-              <p className="product-detail-single">
+            <div className="country-detail-section">
+              <p className="country-detail-single">
                 New Confirmed Cases:&nbsp;&nbsp;
                 <span>{singlecountry && singlecountry.NewConfirmed}</span>
               </p>
-              <p className="product-detail-single">
+              <p className="country-detail-single">
                 Total Confirmed Cases:&nbsp;&nbsp;
                 <span>{singlecountry && singlecountry.TotalConfirmed}</span>
               </p>
-              <p className="product-detail-single">
+              <p className="country-detail-single">
                 New Deaths:&nbsp;&nbsp;
                 <span>{singlecountry && singlecountry.NewDeaths}</span>
               </p>
             </div>
-            <div className="product-detail-section">
-              <p className="product-detail-single">
+            <div className="country-detail-section">
+              <p className="country-detail-single">
                 Total Deaths:&nbsp;&nbsp;
                 <span>{singlecountry && singlecountry.TotalDeaths}</span>
               </p>
-              <p className="product-detail-single">
+              <p className="country-detail-single">
                 New Recovered:&nbsp;&nbsp;
                 <span>{singlecountry && singlecountry.NewRecovered}</span>
               </p>
-              <p className="product-detail-single">
+              <p className="country-detail-single">
                 Total Recovered:&nbsp;&nbsp;
                 <span>{singlecountry && singlecountry.TotalRecovered}</span>
               </p>

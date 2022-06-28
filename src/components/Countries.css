@@ -50,6 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 80px;
+  margin: 20px;
 }
 
 .global-single span {
@@ -65,4 +66,11 @@ body {
   justify-content: center;
   gap: 30px;
   background: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .global-head {
+    margin-top: 90px;
+  }
+  
 }

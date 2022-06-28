@@ -24,3 +24,10 @@
   width: 190px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .single-country {
+    width: 80%;
+  }
+  
+}

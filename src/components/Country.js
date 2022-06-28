@@ -18,7 +18,7 @@ const Countryz = (props) => {
         <div className="country-info">
           <h3 className="country-name">{Country}</h3>
           <p className="covid-icon">
-            New Confirmed Cases:
+            New Confirmed Cases:&nbsp;&nbsp;
             <span>{ NewConfirmed }</span>
           </p>
         </div>
